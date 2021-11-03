@@ -1,0 +1,225 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="nav-bar">
+			<div class="nav-bar-content">
+				<div class="nav-bar-left">
+					<a href="#" class="nav-bar-brand"></a>
+				</div>
+				<nav class="nav-bar-mid">
+					<ul class="nav-bar-mid__items">
+						<li class="nav_item">
+							<a href="#" class="nav__link">COMPRAR</a>
+						</li>
+						<li class="nav_item">
+							<a href="#" class="nav__link">ALUGAR</a>
+						</li>
+						<li class="nav_item">
+							<a href="#" class="nav__link">IMÓVEIS NOVOS</a>
+						</li>
+						<li class="nav_item">
+							<a href="#" class="nav__link">SELEÇÃO VIVA REAL</a>
+						</li>
+						<li class="nav_item">
+							<a href="#" class="nav__link">DESCOBRIR</a>
+						</li>
+						<li class="nav_item">
+							<a href="#" class="nav__link">FINANCIAMENTO</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="nav-bar-right">
+					<ul class="nav-bar-right__items">
+						<li class="nav_item">
+							<a href="#" class="nav__link">ANUNCIAR IMÓVEIS</a>
+						</li>
+						<li class="nav_item">
+							<a href="#" class="nav__link">ENTRAR</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="breadcrumb"></div>
+			<div class="main_container">
+				<div class="main_content">
+					<nav class="filters_wrapper">
+						<div class="filters_container">
+							<form action="">
+								<fieldset class="top-filter-panel">
+									<div class="loc-field">
+										<label for="" class="form-label"
+											>LOCALIZAÇÃO DO IMÓVEL</label
+										>
+										<input
+											type="text"
+											placeholder="Digite uma rua, bairro ou cidade"
+											class="loc-field-input"
+											id="main-input"
+										/>
+									</div>
+									<div class="tour-field">
+										<label for="" class="form-label">IMÓVEL COM</label>
+										<div class="switch-btn-container">
+											<label class="switch">
+												<input type="checkbox" class="input-box" />
+												<span class="slider round"></span>
+											</label>
+											<label for="switch-btn-container" class="tour-label"
+												>Tour Virtual ou Vídeos</label
+											>
+										</div>
+									</div>
+									<div class="type-field">
+										<label for="" class="form-label">TIPO DE IMÓVEL</label>
+										<div>
+											<select disabled class="type-field-input">
+												<option value="c">Mostrar todos</option>
+											</select>
+										</div>
+									</div>
+									<div class="price-range-field">
+										<div class="price-container" data-complement="R$">
+											<label for="" class="form-label">PREÇO MÍNIMO</label>
+											<input type="tel" class="loc-field-input" />
+										</div>
+										<div class="price-container" data-complement="R$">
+											<label for="" class="form-label">PREÇO MÁXIMO</label>
+											<input
+												type="tel"
+												placeholder=" ilimitado"
+												class="loc-field-input"
+											/>
+										</div>
+									</div>
+									<div class="rooms-field">
+										<label for="" class="form-label">NÚMERO DE QUARTOS</label>
+										<div class="form-pills">
+											<ul class="form-pills-container">
+												<li class="pill-item">
+													<button class="pill-button">1+</button>
+												</li>
+												<li class="pill-item">
+													<button class="pill-button">2+</button>
+												</li>
+												<li class="pill-item">
+													<button class="pill-button">3+</button>
+												</li>
+												<li class="pill-item">
+													<button class="pill-button">4+</button>
+												</li>
+												<li class="pill-item">
+													<button class="pill-button">5+</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</fieldset>
+								<fieldset class="bottom-filter-panel">
+									<div class="area-range-field">
+										<div class="area-container" data-complement="m²">
+											<label for="" class="form-label">ÁREA MÍNIMA</label>
+											<input type="tel" class="area-field-input" />
+										</div>
+										<div class="area-container" data-complement="m²">
+											<label for="" class="form-label">ÁREA MÁXIMA</label>
+											<input
+												type="tel"
+												placeholder=" ilimitado"
+												class="area-field-input"
+											/>
+										</div>
+									</div>
+									<div class="garage-field">
+										<label for="" class="form-label"
+											>NÚMERO DE VAGAS NA GARAGEM</label
+										>
+										<div class="form-pills">
+											<ul class="form-pills-container">
+												<li class="pill-item">
+													<button class="pill-button">1+</button>
+												</li>
+												<li class="pill-item">
+													<button class="pill-button">2+</button>
+												</li>
+												<li class="pill-item">
+													<button class="pill-button">3+</button>
+												</li>
+												<li class="pill-item">
+													<button class="pill-button">4+</button>
+												</li>
+												<li class="pill-item">
+													<button class="pill-button">5+</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="bathroom-field">
+										<label for="" class="form-label">NÚMERO DE BANHEIROS</label>
+										<div class="form-pills">
+											<ul class="form-pills-container">
+												<li class="pill-item">
+													<button class="pill-button">1+</button>
+												</li>
+												<li class="pill-item">
+													<button class="pill-button">2+</button>
+												</li>
+												<li class="pill-item">
+													<button class="pill-button">3+</button>
+												</li>
+												<li class="pill-item">
+													<button class="pill-button">4+</button>
+												</li>
+												<li class="pill-item">
+													<button class="pill-button">5+</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+					</nav>
+					<section class="main-results">
+						<header class="main-results-summary">
+							<div class="summary-container">
+								<nav class="summary-tabs">
+									<ul class="tab-menu">
+										<li>
+											<button class="tab-menu-item" id="f-btn">COMPRAR</button>
+										</li>
+										<li><button class="tab-menu-item">ALUGAR</button></li>
+										<li>
+											<button class="tab-menu-item">IMÓVEIS NOVOS</button>
+										</li>
+										<li>
+											<button class="tab-menu-item">SELEÇÃO VIVA REAL</button>
+										</li>
+									</ul>
+								</nav>
+								<div class="results-summary-wrapper">
+									<div class="summary-data">
+										<h1 class="results-summary-title"></h1>
+									</div>
+									<div class="summary-filters">
+										<ul class="summary-filters-wrapper"></ul>
+									</div>
+								</div>
+							</div>
+						</header>
+						<div class="results-panel"></div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<script src="index.js" type="module"></script>
+	</body>
+</html>
